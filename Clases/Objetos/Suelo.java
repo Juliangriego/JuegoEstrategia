@@ -1,28 +1,28 @@
 package Clases.Objetos;
 
 public class Suelo {
-    double disponibilidadAgua;
-    double acidezSuelo;
+    float disponibilidadAgua;
+    float acidezSuelo;
 
     Suelo(){}
-    Suelo(double dispAgua,double pH){
+    Suelo(float dispAgua,float pH){
         this.acidezSuelo=pH;
         this.disponibilidadAgua=dispAgua;
     }
 
-    public double getAcidezSuelo() {
+    public float getAcidezSuelo() {
         return acidezSuelo;
     }
 
-    public double getDisponibilidadAgua() {
+    public float getDisponibilidadAgua() {
         return disponibilidadAgua;
     }
 
-    public void setAcidezSuelo(double acidezSuelo) {
+    public void setAcidezSuelo(float acidezSuelo) {
         this.acidezSuelo = acidezSuelo;
     }
 
-    public void setDisponibilidadAgua(double disponibilidadAgua) {
+    public void setDisponibilidadAgua(float disponibilidadAgua) {
         this.disponibilidadAgua = disponibilidadAgua;
     }
 }
